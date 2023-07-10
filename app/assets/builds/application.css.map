@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../javascript/Components/Home.css"],
+  "sourcesContent": ["#main{\r\n    background-color:transparent;\r\n    width: 100%;\r\n    font-weight: 20px;\r\n    color: blue;\r\n    text-align: center;\r\n    padding-top: 20px;\r\n    \r\n\r\n}\r\n#main-body{\r\n    padding: 10px 10px 10px 10px;\r\n}\r\n#main-card{\r\n    width: 50%;\r\n    height: 80%;\r\n    border-radius: 20px;\r\n}\r\n#main-container{\r\n    display: flex;\r\n    flex-wrap: nowrap;\r\n    justify-content: center;\r\n    align-items: center;\r\n    width: 100%;\r\n    height: 100vh;\r\n    background-image: linear-gradient(to right, rgba(23, 55, 132, 0.651),rgba(13, 136, 189, 0.744),rgb(0, 255, 242),rgba(0, 81, 128, 0.64),rgba(0, 0, 255, 0.426),rgba(76, 0, 130, 0.47),rgba(168, 130, 238, 0.579));\r\n  \r\n\r\n}"],
+  "mappings": ";AAAA;AACI;AACA;AACA;AACA;AACA;AACA;AAAA;AAIJ;AACI;AAAA;AAEJ;AACI;AACA;AACA;AAAA;AAEJ;AACI;AACA;AACA;AACA;AACA;AACA;AACA;AAAA;",
+  "names": []
+}
