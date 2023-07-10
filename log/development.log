@@ -5072,3 +5072,186 @@ Processing by Api::V1::TodolistController#index as */*
 Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.5ms | Allocations: 1679)
 
 
+Started GET "/" for 127.0.0.1 at 2023-07-10 17:30:46 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (35.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 313)
+  Rendered layout layouts/application.html.erb (Duration: 2140.3ms | Allocations: 33670)
+Completed 200 OK in 2233ms (Views: 2175.3ms | ActiveRecord: 0.0ms | Allocations: 38041)
+
+
+Started GET "/api/v1/todolist/index" for 127.0.0.1 at 2023-07-10 17:30:58 +0530
+Processing by Api::V1::TodolistController#index as */*
+  [1m[36mTodolist Load (92.0ms)[0m  [1m[34mSELECT `todolists`.* FROM `todolists`[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:6:in `index'
+Completed 200 OK in 186ms (Views: 19.9ms | ActiveRecord: 161.3ms | Allocations: 7550)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-10 17:31:02 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 2809)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 3070)
+
+
+Started GET "/api/v1/todolist/index" for 127.0.0.1 at 2023-07-10 17:31:02 +0530
+Processing by Api::V1::TodolistController#index as */*
+  [1m[36mTodolist Load (0.4ms)[0m  [1m[34mSELECT `todolists`.* FROM `todolists`[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.4ms | Allocations: 1686)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-10 17:31:18 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2823)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 3083)
+
+
+Started GET "/api/v1/todolist/index" for 127.0.0.1 at 2023-07-10 17:31:18 +0530
+Processing by Api::V1::TodolistController#index as */*
+  [1m[36mTodolist Load (0.4ms)[0m  [1m[34mSELECT `todolists`.* FROM `todolists`[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.4ms | Allocations: 1686)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-10 17:33:52 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (37.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 313)
+  Rendered layout layouts/application.html.erb (Duration: 752.1ms | Allocations: 28845)
+Completed 200 OK in 804ms (Views: 769.8ms | ActiveRecord: 0.0ms | Allocations: 33215)
+
+
+Started GET "/api/v1/todolist/index" for 127.0.0.1 at 2023-07-10 17:33:54 +0530
+Processing by Api::V1::TodolistController#index as */*
+  [1m[36mTodolist Load (20.9ms)[0m  [1m[34mSELECT `todolists`.* FROM `todolists`[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:6:in `index'
+Completed 200 OK in 155ms (Views: 36.5ms | ActiveRecord: 107.0ms | Allocations: 7550)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-10 17:34:56 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 2842)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 3103)
+
+
+Started GET "/api/v1/todolist/index" for 127.0.0.1 at 2023-07-10 17:34:56 +0530
+Processing by Api::V1::TodolistController#index as */*
+  [1m[36mTodolist Load (0.9ms)[0m  [1m[34mSELECT `todolists`.* FROM `todolists`[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.9ms | Allocations: 1686)
+
+
+Started GET "/api/v1/todolist/index" for 127.0.0.1 at 2023-07-10 17:35:05 +0530
+Processing by Api::V1::TodolistController#index as */*
+  [1m[36mTodolist Load (0.4ms)[0m  [1m[34mSELECT `todolists`.* FROM `todolists`[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.4ms | Allocations: 1687)
+
+
+Started POST "/api/v1/todolist/create" for 127.0.0.1 at 2023-07-10 17:35:46 +0530
+Processing by Api::V1::TodolistController#create as */*
+  Parameters: {"title"=>"Add", "description"=>"Add", "completed"=>false, "todolist"=>{"title"=>"Add", "description"=>"Add", "completed"=>false}}
+[31mUnpermitted parameter: :todolist. Context: { controller: Api::V1::TodolistController, action: create, request: #<ActionDispatch::Request:0x000001fd296dd350>, params: {"title"=>"Add", "description"=>"Add", "completed"=>false, "controller"=>"api/v1/todolist", "action"=>"create", "todolist"=>{"title"=>"Add", "description"=>"Add", "completed"=>false}} }[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:10:in `create'
+  [1m[36mTodolist Create (41.1ms)[0m  [1m[32mINSERT INTO `todolists` (`title`, `description`, `completed`, `created_at`, `updated_at`) VALUES ('Add', 'Add', FALSE, '2023-07-10 12:05:47.032318', '2023-07-10 12:05:47.032318')[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (54.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:10:in `create'
+Completed 200 OK in 108ms (Views: 0.9ms | ActiveRecord: 95.9ms | Allocations: 3537)
+
+
+Started GET "/api/v1/todolist/index" for 127.0.0.1 at 2023-07-10 17:35:47 +0530
+Processing by Api::V1::TodolistController#index as */*
+  [1m[36mTodolist Load (0.4ms)[0m  [1m[34mSELECT `todolists`.* FROM `todolists`[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.4ms | Allocations: 1797)
+
+
+Started POST "/api/v1/todolist/create" for 127.0.0.1 at 2023-07-10 17:36:00 +0530
+Processing by Api::V1::TodolistController#create as */*
+  Parameters: {"title"=>"Aa", "description"=>"Aaaa", "completed"=>true, "todolist"=>{"title"=>"Aa", "description"=>"Aaaa", "completed"=>true}}
+[31mUnpermitted parameter: :todolist. Context: { controller: Api::V1::TodolistController, action: create, request: #<ActionDispatch::Request:0x000001fd27f2fb40>, params: {"title"=>"Aa", "description"=>"Aaaa", "completed"=>true, "controller"=>"api/v1/todolist", "action"=>"create", "todolist"=>{"title"=>"Aa", "description"=>"Aaaa", "completed"=>true}} }[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:10:in `create'
+  [1m[36mTodolist Create (16.9ms)[0m  [1m[32mINSERT INTO `todolists` (`title`, `description`, `completed`, `created_at`, `updated_at`) VALUES ('Aa', 'Aaaa', TRUE, '2023-07-10 12:06:00.280113', '2023-07-10 12:06:00.280113')[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (39.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:10:in `create'
+Completed 200 OK in 103ms (Views: 0.8ms | ActiveRecord: 56.4ms | Allocations: 2379)
+
+
+Started GET "/api/v1/todolist/index" for 127.0.0.1 at 2023-07-10 17:36:00 +0530
+Processing by Api::V1::TodolistController#index as */*
+  [1m[36mTodolist Load (0.4ms)[0m  [1m[34mSELECT `todolists`.* FROM `todolists`[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.4ms | Allocations: 1915)
+
+
+Started GET "/api/v1/todolist/index" for 127.0.0.1 at 2023-07-10 17:36:24 +0530
+Processing by Api::V1::TodolistController#index as */*
+  [1m[36mTodolist Load (13.2ms)[0m  [1m[34mSELECT `todolists`.* FROM `todolists`[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:6:in `index'
+Completed 200 OK in 22ms (Views: 8.5ms | ActiveRecord: 13.2ms | Allocations: 1923)
+
+
+Started POST "/api/v1/todolist/create" for 127.0.0.1 at 2023-07-10 17:42:13 +0530
+Processing by Api::V1::TodolistController#create as */*
+  Parameters: {"title"=>"Title", "description"=>"Description", "completed"=>false, "todolist"=>{"title"=>"Title", "description"=>"Description", "completed"=>false}}
+[31mUnpermitted parameter: :todolist. Context: { controller: Api::V1::TodolistController, action: create, request: #<ActionDispatch::Request:0x000001fd2a7206e0>, params: {"title"=>"Title", "description"=>"Description", "completed"=>false, "controller"=>"api/v1/todolist", "action"=>"create", "todolist"=>{"title"=>"Title", "description"=>"Description", "completed"=>false}} }[0m
+  [1m[36mTRANSACTION (18.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:10:in `create'
+  [1m[36mTodolist Create (248.1ms)[0m  [1m[32mINSERT INTO `todolists` (`title`, `description`, `completed`, `created_at`, `updated_at`) VALUES ('Title', 'Description', FALSE, '2023-07-10 12:12:13.788836', '2023-07-10 12:12:13.788836')[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (96.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:10:in `create'
+Completed 200 OK in 684ms (Views: 2.8ms | ActiveRecord: 412.4ms | Allocations: 2484)
+
+
+Started GET "/api/v1/todolist/index" for 127.0.0.1 at 2023-07-10 17:42:14 +0530
+Processing by Api::V1::TodolistController#index as */*
+  [1m[36mTodolist Load (89.3ms)[0m  [1m[34mSELECT `todolists`.* FROM `todolists`[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:6:in `index'
+Completed 200 OK in 125ms (Views: 35.7ms | ActiveRecord: 89.3ms | Allocations: 2033)
+
+
+Started POST "/api/v1/todolist/create" for 127.0.0.1 at 2023-07-10 17:42:30 +0530
+Processing by Api::V1::TodolistController#create as */*
+  Parameters: {"title"=>"Title 2", "description"=>"D2", "completed"=>true, "todolist"=>{"title"=>"Title 2", "description"=>"D2", "completed"=>true}}
+[31mUnpermitted parameter: :todolist. Context: { controller: Api::V1::TodolistController, action: create, request: #<ActionDispatch::Request:0x000001fd2a215e70>, params: {"title"=>"Title 2", "description"=>"D2", "completed"=>true, "controller"=>"api/v1/todolist", "action"=>"create", "todolist"=>{"title"=>"Title 2", "description"=>"D2", "completed"=>true}} }[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:10:in `create'
+  [1m[36mTodolist Create (12.4ms)[0m  [1m[32mINSERT INTO `todolists` (`title`, `description`, `completed`, `created_at`, `updated_at`) VALUES ('Title 2', 'D2', TRUE, '2023-07-10 12:12:30.568395', '2023-07-10 12:12:30.568395')[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (44.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:10:in `create'
+Completed 200 OK in 69ms (Views: 1.4ms | ActiveRecord: 57.2ms | Allocations: 2384)
+
+
+Started GET "/api/v1/todolist/index" for 127.0.0.1 at 2023-07-10 17:42:30 +0530
+Processing by Api::V1::TodolistController#index as */*
+  [1m[36mTodolist Load (0.4ms)[0m  [1m[34mSELECT `todolists`.* FROM `todolists`[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.4ms | Allocations: 2151)
+
+
+Started GET "/api/v1/todolist/index" for 127.0.0.1 at 2023-07-10 17:42:57 +0530
+Processing by Api::V1::TodolistController#index as */*
+  [1m[36mTodolist Load (0.5ms)[0m  [1m[34mSELECT `todolists`.* FROM `todolists`[0m
+  ↳ app/controllers/api/v1/todolist_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.5ms | Allocations: 2151)
+
+
